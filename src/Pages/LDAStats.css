@@ -1,0 +1,35 @@
+.statsPage {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.clusters_info {
+    display: flex;
+    column-gap: 15px;
+    height: 40px;
+    align-items: center;
+    padding: 4px;
+    margin-left: 40px;
+    border: 2px solid #003366;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.clusters_info select{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+.clusters_info h5{
+    font-size: 18px;
+}
+
+.cluster_anchor {
+    margin-left: 40px;
+    padding: 4px;
+    border: 2px solid #003366;
+    border-radius: 10px;
+    width: fit-content;
+}

@@ -1,0 +1,34 @@
+.header {
+}
+.header ul {
+    overflow: hidden;
+    display: flex;
+    column-gap: 10px;
+    list-style-type: none;
+}
+
+.header li {
+    padding: 12px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.header a {
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header li:hover {
+    background-color: #003366;
+    transition: 0.4s ease-in;
+}
+
+.header li:hover a {
+    color: #fff;
+}
